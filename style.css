@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.customerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  
+  }
+
+.customerPicture {
+  border-radius: 48% 25% 48%;
+  padding-left: 2rem;
+  } /*still need to match the assigment*/
+
+.customerCard {
+margin: 2rem;
+justify-content: center;
+align-content: center;
+}
+
+.customerInfo {
+  text-align: center;
+  padding-top: .9rem;
+  font-family:'Times New Roman', Times, serif;
+ 
+}
+
+.customerName {
+  text-align: center;
+  padding-top: .5rem;
+  padding-bottom: .65rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+
+a {
+  text-decoration: none;
+}
+
+.email {
+  text-align: center;
+  color: gray;
+ 
+}
+
+/* not working yet
+.email :hover {
+ 
+}*/
+
+ul {
+list-style-type: none;
+}
+
+
